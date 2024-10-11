@@ -40,8 +40,54 @@ header li:last-child{
     padding: 10px;
 }
 header li:last-child:hover{
-    background-color: #5758e0;
+    background-image: var(--custom-gradient);
 }
 .ri-rocket-2-line{
     margin-right: 5px;
+}
+
+/* BANNER */
+
+.banner{
+    background-image: linear-gradient(rgb(0, 0, 0,0.8),rgb(0, 0, 0,0.8)),url(../assets/images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+.banner-content{
+    padding-top: 60px;
+}
+.banner h2{
+    font-size: 75px;
+    color: transparent;
+    background-image: var(--custom-gradient);
+    background-clip: text;
+    font-weight: 800;
+}
+.banner p{
+    font-size: 26px;
+    color: var(--custom-font-color);
+}
+.banner-content a{
+    border: 2px solid #5758e0;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#576cdd,#4058e0);
+}
+.banner-content a:hover{
+    background-image: var(--custom-gradient) ;
+}
+
+
+/* SERVICE */
+
+.service{
+    background-color: var(--bg1);
+    padding: 90px 0;
+}
+.service .service-item{
+    height: 310px;
+    width: 360px;
+    background-color: var(--bg2);
 }
