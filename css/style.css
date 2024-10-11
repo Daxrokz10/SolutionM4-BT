@@ -67,6 +67,8 @@ header li:last-child:hover{
 .banner p{
     font-size: 26px;
     color: var(--custom-font-color);
+    margin-bottom: 50px;
+    max-width: 1100px;    /*media work*/
 }
 .banner-content a{
     border: 2px solid #5758e0;
@@ -91,10 +93,39 @@ header li:last-child:hover{
     width: 360px;
     background-color: var(--bg2);
     margin-top: 30px;
+    transition: 0.2s;
 }
 .service .service-item a{
     text-decoration: none;
 }
-.service-item i{
-    font-size: 48px;
+
+
+.service-item h2{
+    color: white;
+    font-size: 28px;
 }
+.service-item p{
+    color: var(--custom-font-color);
+    font-size: 20px;
+}
+.service-icon{
+    background-image: var(--custom-gradient);
+    color: transparent;
+    background-clip: text;
+    font-size: 40px;
+    line-height: 110px;
+}
+.ri-arrow-right-circle-line{
+    color: white;
+    font-size: 40px;
+    
+}
+.service .service-item:hover{
+    background-image: var(--custom-gradient);
+    transform: translateY(-50px);
+}
+.service .service-item:hover .service-icon , .service-item h2 , .service-item p{
+    color: white;
+}
+
+
