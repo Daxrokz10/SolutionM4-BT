@@ -33,6 +33,9 @@ body{
     font-size: 20px;
     font-weight: 300;
 }
+.common-h2{
+    font-size: 44px;
+}
 
 /* HEADER */
 
@@ -85,7 +88,6 @@ header li:last-child:hover{
     font-weight: 800;
 }
 .banner p{
-
     margin-bottom: 50px;
     max-width: 1100px;    /*media work*/
 }
@@ -122,7 +124,7 @@ header li:last-child:hover{
     font-size: 28px;
 }
 .service-item p{
-    color: var(--custom-font-color)!important;
+    color: var(--custom-font-color);
     font-size: 20px;
 }
 .service-icon{
@@ -190,10 +192,69 @@ header li:last-child:hover{
     margin-top: 10%;
 }
 .about-content h2{
-    font-size: 44px;
     margin-top: 40px;
     margin-bottom: 20px;
 }
 
 /* PROFFESIONAL */
 
+.proffesional i{
+    font-size: 50px;
+    color: transparent;
+    background-image: var(--custom-gradient);
+    background-clip: text;
+}
+.proffesional h2{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* FEATURES */
+
+.features{
+    background-color: #000!important;
+}
+.accordion {
+	--bs-accordion-btn-color: #999999;
+	--bs-accordion-btn-bg: #111111;
+	--bs-accordion-active-color: #ffffff;
+	--bs-accordion-active-bg: #111111;
+}
+.accordion-item{
+    margin-top: 20px;
+    border: 0;
+}
+.accordion-header button{
+    font-size: 20px;
+}
+.accordion-body{
+    color: var(--custom-font-color);
+}
+
+/* PORTFOLIO */
+
+.portfolio-image h3 , .portfolio-image p{
+    display: none;
+    color: white;
+}
+.portfolio-image:hover , .portfolio-image h3 , .portfolio-image p{
+    display: inline-block;
+}
+.portfolio-inner .img-1{
+    background-image: url(../assets/images/portfolio-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.portfolio-inner .img-2{
+    background-image: url(../assets/images/proffesional-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.portfolio-inner .img-3{
+    background-image: url(../assets/images/about-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
