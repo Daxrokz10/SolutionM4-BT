@@ -324,9 +324,34 @@ opacity: 1;
 
 /* TESTIMONIAL */
 
+.testimonial-inner{
+    margin-left: 3%;   /*might need media work*/
+}
 .testimonial-inner-item{
-    height: 310px;
+    height: 360px;
     width: 360px;
     background-color: #191919;
     margin-top: 30px;
+}
+.testimonial-inner-item img{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.testimonial-inner-item h3{
+    color: white;
+    margin-top: 10px;
+}
+.testimonial-inner-item p{
+    color: var(--custom-font-color);
+    width: 70%;
+    font-size: 20px;
+    margin: auto;
+}
+.ri-star-s-line{
+    background-image: var(--custom-gradient);
+    color: transparent;
+    background-clip: text;
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 40px;
 }
