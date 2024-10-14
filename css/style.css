@@ -233,28 +233,66 @@ header li:last-child:hover{
 
 /* PORTFOLIO */
 
-.portfolio-image h3 , .portfolio-image p{
-    display: none;
-    color: white;
+.portfolio .col-4 .img-1{
+background-image: url(../assets/images/portfolio-1.jpg);
+background-size: cover;
+background-position: center;
+transition: 0.2s;
 }
-.portfolio-image:hover , .portfolio-image h3 , .portfolio-image p{
-    display: inline-block;
+.portfolio .col-4 .img-2{
+background-image: url(../assets/images/proffesional-image.jpg);
+background-size: cover;
+background-position: center;
+transition: 0.2s;
 }
-.portfolio-inner .img-1{
-    background-image: url(../assets/images/portfolio-1.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 500px;
+.portfolio .col-4 .img-3{
+background-image: url(../assets/images/about-image.jpg);
+background-size: cover;
+background-position: center;
+transition: 0.2s;
 }
-.portfolio-inner .img-2{
-    background-image: url(../assets/images/proffesional-image.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 500px;
+.portfolio .portfolio-img-content{
+text-align: center;
+padding-top: 400px;
 }
-.portfolio-inner .img-3{
-    background-image: url(../assets/images/about-image.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 500px;
+
+.portfolio .portfolio-img-content h3{
+font-size: 28px;
+padding-bottom: 50px;
+color: white;
+opacity: 0;
+}
+
+.portfolio .portfolio-img-content p{
+font-size: 22px;
+padding-bottom: 20px;
+color: white;
+opacity: 0;
+}
+.portfolio .col-4 .img-1:hover{
+background: linear-gradient(90deg,rgb(87, 88, 224,0.8),rgb(86, 151, 216,0.8)),url(../assets/images/portfolio-1.jpg);
+background-position: center;
+background-size: cover;
+transform: translateY(-50px);
+}
+.portfolio .col-4 .img-2:hover{
+background: linear-gradient(90deg,rgb(87, 88, 224,0.8),rgb(86, 151, 216,0.8)),url(../assets/images/proffesional-image.jpg);
+background-position: center;
+background-size: cover;
+transform: translateY(-50px);
+}
+.portfolio .col-4 .img-3:hover{
+background: linear-gradient(90deg,rgb(87, 88, 224,0.8),rgb(86, 151, 216,0.8)),url(../assets/images/about-image.jpg);
+background-position: center;
+background-size: cover;
+transform: translateY(-50px);
+}
+.portfolio .col-4 .img-1:hover p, .portfolio .col-4 .img-1:hover h3{
+opacity: 1;
+}
+.portfolio .col-4 .img-2:hover p, .portfolio .col-4 .img-2:hover h3{
+opacity: 1;
+}
+.portfolio .col-4 .img-3:hover p, .portfolio .col-4 .img-3:hover h3{
+opacity: 1;
 }
