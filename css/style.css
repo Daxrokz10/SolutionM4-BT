@@ -14,6 +14,26 @@ body{
     --custom-gradient: linear-gradient(45deg,#576cdd,#55afd5);
 }
 
+.generic-section-type-1{
+    background-color: var(--bg1);
+    padding: 40px 0;
+}
+.generic-section-type-2{
+    background-color: var(--bg2);
+    padding: 40px 0;
+}
+.gradient-span{
+    height: 5px;
+    width: 50px;
+    display: inline-block;
+    background-image: var(--custom-gradient);
+}
+.sub-text-p{
+    color: var(--custom-font-color);
+    font-size: 20px;
+    font-weight: 300;
+}
+
 /* HEADER */
 
 nav .nav-item{
@@ -65,8 +85,7 @@ header li:last-child:hover{
     font-weight: 800;
 }
 .banner p{
-    font-size: 26px;
-    color: var(--custom-font-color);
+
     margin-bottom: 50px;
     max-width: 1100px;    /*media work*/
 }
@@ -84,10 +103,6 @@ header li:last-child:hover{
 
 /* SERVICE */
 
-.service{
-    background-color: var(--bg1);
-    padding: 90px 0;   
-}
 .service .service-item{
     height: 310px;
     width: 360px;
@@ -107,7 +122,7 @@ header li:last-child:hover{
     font-size: 28px;
 }
 .service-item p{
-    color: var(--custom-font-color);
+    color: var(--custom-font-color)!important;
     font-size: 20px;
 }
 .service-icon{
@@ -118,7 +133,7 @@ header li:last-child:hover{
     line-height: 110px;
 }
 .ri-arrow-right-circle-line{
-    color: white;
+    color: var(--custom-font-color);
     font-size: 40px;
     
 }
@@ -161,3 +176,24 @@ header li:last-child:hover{
 .last:hover:after{
     opacity: 0;
 }
+
+
+/* ABOUT */
+
+.about .row{
+    align-items: center;
+}
+.about img{
+    margin-top: 40px;
+}
+.about-content{
+    margin-top: 10%;
+}
+.about-content h2{
+    font-size: 44px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* PROFFESIONAL */
+
