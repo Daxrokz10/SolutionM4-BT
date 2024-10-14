@@ -5,6 +5,7 @@
 }
 body{
     font-family: "Jost", sans-serif;
+    overflow-x: hidden;
 }
 
 :root{
@@ -295,4 +296,37 @@ opacity: 1;
 }
 .portfolio .col-4 .img-3:hover p, .portfolio .col-4 .img-3:hover h3{
 opacity: 1;
+}
+
+/* VIDEO */
+
+.video-inner{
+    z-index: 0;
+}
+.video-inner img{
+    height: 400px;
+    margin-left: 22%;  /*will need media work*/
+    z-index: 0;
+}
+.ri-play-line{
+    z-index: 1;
+    font-size: 80px;
+    background-image: var(--custom-gradient);
+    color: transparent;
+    background-clip: text;
+    margin-left: -350px;
+    transition: 0.2s;
+}
+.ri-play-line:hover{
+    font-size: 150px;
+    margin-left: -380px;
+}
+
+/* TESTIMONIAL */
+
+.testimonial-inner-item{
+    height: 310px;
+    width: 360px;
+    background-color: #191919;
+    margin-top: 30px;
 }
