@@ -234,19 +234,19 @@ header li:last-child:hover{
 
 /* PORTFOLIO */
 
-.portfolio .col-4 .img-1{
+.portfolio .col-xl-4 .img-1{
 background-image: url(../assets/images/portfolio-1.jpg);
 background-size: cover;
 background-position: center;
 transition: 0.2s;
 }
-.portfolio .col-4 .img-2{
+.portfolio .col-xl-4 .img-2{
 background-image: url(../assets/images/proffesional-image.jpg);
 background-size: cover;
 background-position: center;
 transition: 0.2s;
 }
-.portfolio .col-4 .img-3{
+.portfolio .col-xl-4 .img-3{
 background-image: url(../assets/images/about-image.jpg);
 background-size: cover;
 background-position: center;
@@ -270,31 +270,31 @@ padding-bottom: 20px;
 color: white;
 opacity: 0;
 }
-.portfolio .col-4 .img-1:hover{
+.portfolio .col-xl-4 .img-1:hover{
 background: linear-gradient(90deg,rgb(87, 88, 224,0.8),rgb(86, 151, 216,0.8)),url(../assets/images/portfolio-1.jpg);
 background-position: center;
 background-size: cover;
 transform: translateY(-50px);
 }
-.portfolio .col-4 .img-2:hover{
+.portfolio .col-xl-4 .img-2:hover{
 background: linear-gradient(90deg,rgb(87, 88, 224,0.8),rgb(86, 151, 216,0.8)),url(../assets/images/proffesional-image.jpg);
 background-position: center;
 background-size: cover;
 transform: translateY(-50px);
 }
-.portfolio .col-4 .img-3:hover{
+.portfolio .col-xl-4 .img-3:hover{
 background: linear-gradient(90deg,rgb(87, 88, 224,0.8),rgb(86, 151, 216,0.8)),url(../assets/images/about-image.jpg);
 background-position: center;
 background-size: cover;
 transform: translateY(-50px);
 }
-.portfolio .col-4 .img-1:hover p, .portfolio .col-4 .img-1:hover h3{
+.portfolio .col-xl-4 .img-1:hover p, .portfolio .col-4 .img-1:hover h3{
 opacity: 1;
 }
-.portfolio .col-4 .img-2:hover p, .portfolio .col-4 .img-2:hover h3{
+.portfolio .col-xl-4 .img-2:hover p, .portfolio .col-4 .img-2:hover h3{
 opacity: 1;
 }
-.portfolio .col-4 .img-3:hover p, .portfolio .col-4 .img-3:hover h3{
+.portfolio .col-xl-4 .img-3:hover p, .portfolio .col-4 .img-3:hover h3{
 opacity: 1;
 }
 
@@ -417,3 +417,25 @@ opacity: 1;
 .contact .service-item a{
     text-decoration: none;
 }
+
+/* FOOTER */
+
+.footer{
+    background-color: #000000;
+    border: 0.1px solid rgb(17, 17, 17);
+    box-shadow: #ffffff;
+}
+.footer a{
+    color: #5697d8;   
+    transition: 0.1s;
+}
+.footer a:hover{
+    color: #7bb6f1;
+}
+.footer p{
+    color: #999999;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+

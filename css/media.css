@@ -13,26 +13,88 @@
 
 /* L */
 
-@media(max-width:1200px){
+@media(max-width:1199px){
+ 
+    /* SERVICE */
 
+    .service-item{
+        margin-left: 10%;
+    }
+    .first:before{
+        transform: translate(40px,10px);
+    }
+    .last:after{
+        transform: translate(-40px,20px);
+    }
+
+    /* VIDEO */
+
+    .video-inner img{
+        margin-left: 18%;  /*will need media work*/
+    }
 }
 
 /* M  */
 
 @media(max-width:991px){
  
+    /* SERVICE */
+
+    .service-item{
+        margin-left: 0%;
+    }
+    .first:before{
+        transform: translate(-5px,10px);
+    }
+    .last:after{
+        transform: translate(30px,20px);
+    }
+    
+    /* VIDEO */
+
+    .video-inner img{
+        margin-left: 5%;  /*will need media work*/
+    }
 }
 
 /* S  */
 
 @media(max-width:767px){
- 
+
+  /* SERVICE */
+
+    .service-item{
+    margin-left: 15%;
+    }
+    .first:before{
+        transform: translate(70px,10px);
+    }
+    .last:after{
+        transform: translate(-70px,20px);
+    }
+        
+    /* VIDEO */
+
+    .video-inner img{
+        margin-left: 0%;  /*will need media work*/
+    }
+
+    /* TESTIMONIAL */
+
+    .testimonial-inner-item{
+        margin-left: 25%;
+    }
 }
 
 /* XS  */
 
 @media(max-width:575px){
 
+    /* TESTIMONIAL */
+
+    .testimonial-inner-item{
+        margin-left: 15%;
+    }
 }
 
 /* XXS */
