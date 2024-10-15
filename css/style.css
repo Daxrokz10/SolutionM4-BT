@@ -355,3 +355,65 @@ opacity: 1;
     display: inline-block;
     margin-top: 40px;
 }
+
+
+/* FORM */
+
+.form{
+    background-color: #000!important;
+}
+.form input{
+    background-color: transparent;
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px #999999 solid;
+    margin-top: 20px;
+}
+.form input:placeholder-shown{
+    color: var(--custom-font-color);
+}
+.form button{
+    border: 2px solid #5758e0;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,#576cdd,#4058e0);
+    margin-top: 20px;
+}
+.form button:hover{
+    background-image: var(--custom-gradient) ;
+}
+.form-img , .form-img img{
+    z-index: 0;
+}
+.form i{
+    z-index: 1;
+    position: absolute;
+    color: transparent;
+    background-image: var(--custom-gradient);
+    background-clip: text;
+    font-size: 120px;
+    bottom: 0;
+    right: 0;
+    transform: translateX(-20px);
+}
+
+/* CONTACT */
+
+.contact .service-item{
+    height: 310px;
+    width: 360px;
+    background-color: var(--bg2);
+    margin-top: 30px;
+    transition: 0.2s;
+}
+.contact .container{
+    position: relative;
+    z-index: 0;
+}
+.contact .service-item a{
+    text-decoration: none;
+}
